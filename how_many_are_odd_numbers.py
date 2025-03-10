@@ -6,4 +6,6 @@ for i in range(10):
 #ask the user to input a number and convert it to int
     num = int(input(f"Enter Number {i + 1}: "))
 #check if the number is odd
+    if num % 2 != 0:
+        odd_count += 1
 #print the total count of odd numbers
