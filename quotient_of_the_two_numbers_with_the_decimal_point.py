@@ -6,4 +6,7 @@ if num2 == 0:
     print("ERROR: Division by zero is not allowed.")
 else:
     #calculate the quotient of the two numbers
-    
+    quotient = num1/num2
+    #print the product
+    print("The quotient os the two numbers is:", quotient)
+
