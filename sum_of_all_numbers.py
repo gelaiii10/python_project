@@ -5,3 +5,4 @@ total_sum = 0
 for i in range(10):
     #Ask the user to input a number
     num = int(input(f"Enter number {i + 1}: "))
+    total_sum += num #add number to the total sum
