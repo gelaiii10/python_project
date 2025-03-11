@@ -4,3 +4,4 @@ num2 = int(input("enter the second number: "))
 
 difference = num1 - num2 #compute the difference
 #print the difference
+print(difference)
