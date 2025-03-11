@@ -4,4 +4,4 @@ num2 = int(input("enter the second number: "))
 
 #compare the two numbers
 if num1 != num2:
-#print the result
+    print("Not Equal") #print the result
