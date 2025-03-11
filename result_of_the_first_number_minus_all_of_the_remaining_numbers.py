@@ -7,3 +7,7 @@ for i in range(10):
 
 #first number
 first_number = numbers[0]
+#compute the result of the first number minus all remaining numbers
+result = first_number
+for num in numbers[1:]:
+        result -= num
