@@ -3,4 +3,6 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 if num2 == 0: #test if the 2nd number is  not 0 to avoid error
-    print("ERROR: Division by zero is not allowed.") 
+    print("ERROR: Division by zero is not allowed.")
+else:
+    quotient = (num1/num2) #compute the quotient     
