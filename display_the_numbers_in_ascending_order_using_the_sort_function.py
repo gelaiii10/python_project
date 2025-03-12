@@ -14,3 +14,10 @@ while True:
         break
 
 numbers.sort() #sort the numbers in ascending order
+
+if numbers: #display the sorted numbers
+    print("Numbers from lowest to highest:")
+    for num in numbers:
+        print(num)
+else:
+    print("No valid numbers were entered.")
