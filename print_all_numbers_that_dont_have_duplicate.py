@@ -6,11 +6,15 @@ print("you need to input 10 numbers:")
 for i in range(10):
     while True:
         try:
-            numbers[i] = int(input(f"Number {i + 1}: "))  #directly assign the number to the list
+            numbers[i] = float(input(f"Number {i + 1}: "))  #directly assign the number to the list
             break
         except ValueError:
                 print("Invalid input. Please input a valid number.")
 
   #find and display numbers without duplicates
     unique_numbers = [num for num in numbers if numbers.count(num) == 1]              
-#find and display numbers without duplicates
+#print numbers that do not haprint("Numbers without duplicates:")
+    if unique_numbers:
+        print(unique_numbers)
+    else:
+        print("All numbers have duplicates.")
