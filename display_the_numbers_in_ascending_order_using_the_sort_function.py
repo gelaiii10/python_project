@@ -12,3 +12,5 @@ while True:
         #exit the loop if input is invalid
         print("Invalid input. Exiting the program.")
         break
+
+numbers.sort() #sort the numbers in ascending order
