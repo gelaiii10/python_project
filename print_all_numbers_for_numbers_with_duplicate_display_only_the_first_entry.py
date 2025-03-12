@@ -6,7 +6,18 @@ def main():
     for i in range(10):
         while True:
             try:
-                numbers[i] = float(input(f"Number {i + 1}: "))  # directly assign the number
+                numbers[i] = int(input(f"Number {i + 1}: "))  # directly assign the number
                 break
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
+
+  #display numbers, ensuring duplicates are only shown once
+    print("duplicate numbers shown only once):")
+    seen = set()
+    for num in numbers:
+        if num not in seen:
+            print(num)
+            seen.add(num)
+
+if __name__ == "__main__":
+    main()              
