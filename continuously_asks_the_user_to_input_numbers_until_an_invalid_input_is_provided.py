@@ -12,3 +12,7 @@ while True:
         else:
             print("unique")
             seen_numbers.add(number)  #add the number to the set
+
+    except ValueError:
+        print("Invalid input. Exiting the program.")
+        break  #exit the loop if input is invalid      
