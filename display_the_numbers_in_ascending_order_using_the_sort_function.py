@@ -7,3 +7,8 @@ while True:
     try:
         number = float(user_input)  
         numbers.append(number)  #add the number to the list
+
+    except ValueError:
+        #exit the loop if input is invalid
+        print("Invalid input. Exiting the program.")
+        break
