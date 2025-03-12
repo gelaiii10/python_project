@@ -10,4 +10,7 @@ for i in range(10):
             break
         except ValueError:
                 print("Invalid input. Please input a valid number.")
+
+  #find and display numbers without duplicates
+    unique_numbers = [num for num in numbers if numbers.count(num) == 1]              
 #find and display numbers without duplicates
