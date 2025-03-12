@@ -1,0 +1,1 @@
+numbers = [] #add list to store the numbers
