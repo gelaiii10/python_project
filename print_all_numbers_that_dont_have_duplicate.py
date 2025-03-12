@@ -18,7 +18,7 @@ def main():
     if unique_numbers:
         print(unique_numbers)
     else:
-        print("All numbers have duplicates.")
+        print("all numbers have duplicates.")
 
 
 if __name__ == "__main__":
