@@ -11,3 +11,7 @@ while True:
         numbers.append(num)  #add the number to the list
     except ValueError:
         print("Invalid input. Please enter a valid number or type 'exit' to stop.")
+
+if not numbers: #inform the user if no number were entered
+        print("No numbers were entered.")
+        return        
