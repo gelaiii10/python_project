@@ -10,3 +10,13 @@ for i in range(10):
                 break
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
+
+#find the duplicates
+duplicates = set()
+seen = set()
+    
+for number in numbers:
+    if number in seen:
+        duplicates.add(number)
+    else:
+        seen.add(number)                
