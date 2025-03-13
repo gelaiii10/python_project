@@ -14,4 +14,9 @@ while True:
 
 if not numbers: #inform the user if no number were entered
         print("No numbers were entered.")
-        return        
+          
+#find the number with the most duplicates
+most_duplicates = max(set(numbers), key=numbers.count)
+max_count = numbers.count(most_duplicates) 
+
+print(most_duplicates) #print the most duplicate numbers
