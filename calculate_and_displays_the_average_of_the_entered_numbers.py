@@ -6,3 +6,10 @@ while True:
         #check for exit condition
     if user_input.lower() == 'exit':
             break
+    
+    try:
+        num = float(user_input) #convert input into float
+        numbers[count] = num  #directly assign the number to the list
+        count += 1  #increment the count of valid numbers
+    except ValueError:
+        print("Invalid input. Please enter a valid number or type 'exit' to stop.")
