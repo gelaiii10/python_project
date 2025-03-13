@@ -5,3 +5,9 @@ while True:
         
     if user_input.lower() == 'exit': #check for exit condition
             break
+    
+    try:
+        num = float(user_input)
+        numbers.append(num)  #add the number to the list
+    except ValueError:
+        print("Invalid input. Please enter a valid number or type 'exit' to stop.")
